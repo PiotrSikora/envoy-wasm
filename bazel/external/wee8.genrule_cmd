@@ -53,6 +53,8 @@ WEE8_BUILD_ARGS+=" custom_toolchain=\"//build/toolchain/linux/unbundle:default\"
 WEE8_BUILD_ARGS+=" use_custom_libcxx=false"
 # Use local sysroot.
 WEE8_BUILD_ARGS+=" use_sysroot=false"
+# Use local XCode.
+WEE8_BUILD_ARGS+=" use_system_xcode=true"
 # Disable unused GLib2 dependency.
 WEE8_BUILD_ARGS+=" use_glib=false"
 # Expose debug symbols.
